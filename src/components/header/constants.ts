@@ -1,11 +1,4 @@
-export const navItems = [
-    'Man',
-    ' Woman',
-    'Kids',
-    'Sale',
-    'Collections',
-    'Blog',
-];
+export const navItems = ['Man', 'Woman', 'Kids', 'Sale', 'Collections', 'Blog'];
 
 // export const navItems = [
 //     {

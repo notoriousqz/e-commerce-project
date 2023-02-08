@@ -1,6 +1,5 @@
 import React, { SyntheticEvent, useState } from 'react';
-import { Tabs } from '@mui/material';
-import { Stack } from '@mui/system';
+import { Tabs, Stack } from '@mui/material';
 import { StyledIconShoppping, StyledIconUser, StyledTab } from './styles';
 import { useNavigate } from 'react-router-dom';
 import { routingPages } from '../../../routes/enums';

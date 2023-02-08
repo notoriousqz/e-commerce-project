@@ -1,5 +1,4 @@
-import { Tabs } from '@mui/material';
-import { Box } from '@mui/system';
+import { Tabs, Box } from '@mui/material';
 import React, { useState } from 'react';
 import { navItems } from '../constants';
 import { StyledNavTab } from './style';

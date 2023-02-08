@@ -1,7 +1,7 @@
 import React from 'react';
 import { Stack } from '@mui/material';
 import Navigation from './navigation/Navigation';
-import Logo from './logo/Logo';
+import { HeaderLogo } from '../logo/Logo';
 import Search from './Search/Search';
 import Icons from './navIcons/Icons';
 import { StyledAppBar, StyledBox, StyledToolBar } from './style';
@@ -11,7 +11,7 @@ const Header = () => {
         <StyledAppBar color='transparent' position='static'>
             <StyledToolBar>
                 <StyledBox>
-                    <Logo />
+                    <HeaderLogo />
                     <Navigation />
                 </StyledBox>
                 <Stack direction='row' alignItems='center'>
